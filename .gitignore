@@ -1,3 +1,8 @@
+bld.bat
+build.sh
+meta.yaml
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
