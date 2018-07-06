@@ -90,7 +90,7 @@ def cavity_parameter_estimator_3(l, rc1, rc2, lam=1064 * 10 ** (-9)):
     g1 = 1 - l / rc1
     g2 = 1 - l / rc2
 
-    z1 = l * (rc2 - l) / (rc2 + rc1 - 2 * l)
+    z1 = -l * (rc2 - l) / (rc2 + rc1 - 2 * l)
     z2 = z1 + l
     if z2 != (z1 + l):
         raise ValueError(
