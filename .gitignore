@@ -1,7 +1,7 @@
 bld.bat
 build.sh
 meta.yaml
-
+record.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
